@@ -31,6 +31,8 @@
  * @return {RegExp}
  */
 function getRegexForGuid() {
+   let res = /{[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}}$/;
+   return res;
    throw new Error('Not implemented');
 }
 
